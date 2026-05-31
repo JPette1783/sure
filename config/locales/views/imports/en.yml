@@ -112,6 +112,23 @@ en:
         instructions: Select continue to parse your CSV and move on to the clean step.
       mint_import:
         date_format_label: Date format
+      ynab_import:
+        preconfigured_notice: We have pre-configured your YNAB import for you. Your
+          Outflow and Inflow columns are automatically merged into a single signed
+          amount. Please review the columns below and proceed to the next step.
+        leave_empty: Leave empty
+        date_label: Date
+        date_format_label: Date format
+        format_label: Format
+        select_format: Select format
+        account_label: Account (optional)
+        name_label: Payee (optional)
+        category_label: Category (optional)
+        tags_label: Flag (optional)
+        notes_label: Memo (optional)
+        amount_help: Amounts are taken from your file's Outflow and Inflow columns
+          automatically — outflows become expenses and inflows become income.
+        apply_configuration: Apply configuration
       actual_import:
         preconfigured_notice: We have pre-configured your Actual Budget import for you. Please proceed to the next step.
         leave_empty: Leave empty
@@ -301,6 +318,7 @@ en:
       trade_import: "Trade import"
       account_import: "Account import"
       mint_import: "Mint import"
+      ynab_import: "YNAB import"
       actual_import: "Actual import"
       qif_import: "QIF import"
       category_import: "Category import"
@@ -334,6 +352,7 @@ en:
           trade_import: "Trade"
           account_import: "Account"
           mint_import: "Mint"
+          ynab_import: "YNAB"
           actual_import: "Actual"
           qif_import: "QIF"
           category_import: "Category"

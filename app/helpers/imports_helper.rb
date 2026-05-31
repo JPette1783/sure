@@ -80,7 +80,7 @@ module ImportsHelper
 
   private
     def permitted_import_types
-      %w[transaction_import trade_import account_import mint_import actual_import category_import rule_import]
+      %w[transaction_import trade_import account_import mint_import ynab_import actual_import category_import rule_import]
     end
 
     DryRunResource = Struct.new(:label, :icon, :text_class, :bg_class, keyword_init: true)
